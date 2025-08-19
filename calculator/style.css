@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: rgb(204, 148, 148);
+}
+.screen input{
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 20px;
+    margin-left: 12px;
+    font-size: 20px;
+    width:170px;
+    background-color: rgb(173, 170, 170);
+}
+.all{
+     width: 200px;
+     height: 300px;
+     background-color:dimgray;
+     margin: auto;
+     border-radius: 15px 15px 15px 15px;
+     margin-top: 100px;
+}
+.buttons{
+  grid-template-columns: repeat(4,20px);
+  display:grid;
+  gap:25px;
+  margin-left: 20PX;
+  text-align: center;
+  margin-top: 30px;
+  
+
+}
+
+.buttons button{
+   background-color:rgb(177, 175, 177); 
+   border-radius: 4px;
+
+}
