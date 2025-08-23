@@ -1,0 +1,30 @@
+#btnJs {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-transform: uppercase;
+}
+
+#btnJs:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+#btnJs:active {
+  background-color: #004494;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+#btnJs:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.7;
+}
